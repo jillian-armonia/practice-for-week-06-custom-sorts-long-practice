@@ -79,7 +79,7 @@ oddEvenSort(arr2);           // => [5, 9, 13, 6, 8, 14, 22]
 
 ### `Valid Anagrams`
 
-Given two strings, s and t, write a function that determines it s and t are
+Given two strings, s and t, write a function that determines if s and t are
 anagrams.
 
 Example:
@@ -94,7 +94,8 @@ validAnagrams(s, t);            // => true
 ### `Reverse-Base Sort`
 
 Given an array, sort it such that the numbers are grouped by its base in
-descending order, but ascending within each group.
+descending order, but ascending within each group. (Like they are grouped according to the number places)
+(e.g. group1 = [100, 101]; group2 = [10, 11]; group3 = [0, 1])
 
 Example:
 
